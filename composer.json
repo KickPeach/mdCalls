@@ -1,0 +1,29 @@
+{
+    "name": "kickpeach/mdcalls",
+    "description": "A package that addresses dependencies and modular services that support singleton invocation, RPC invocation, and any framework that USES composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shisiying",
+            "email": "751401459@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kickPeach\\mdCalls\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\kickPeach\\mdCalls\\": "tests/mdcalls/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "mockery/mockery": "^1.2"
+    },
+    "require": {
+        "php": ">=5.6"
+    }
+}
