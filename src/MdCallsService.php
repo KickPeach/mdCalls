@@ -30,7 +30,6 @@ abstract class MdCallsService
 
     protected $mdCallsNamespace;
 
-    //找到
     public function __get($moduleName)
     {
         $moduleName = ucfirst($moduleName);
