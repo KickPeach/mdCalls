@@ -48,7 +48,7 @@ abstract class MdCallsBasic
     {
         if(!empty($this->moduleName)) {
             //加载当前服务的子类
-            $classNmae = '\\'.$this->namespace.'\Service\\'.$this->moduleName.'\\child\\'.$class;
+            $classNmae = '\\'.$this->namespace.'\Service\\'.$this->moduleName.'\\Child\\'.$class;
 
             $subObj = new $classNmae(...$args);
 
